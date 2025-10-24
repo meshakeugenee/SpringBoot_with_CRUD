@@ -33,4 +33,4 @@ public class TicketController {
        ticketService.deleteTicket(id);
        return ResponseEntity.noContent().build();
    }
-}//where all the methods returns all the JSON response
+}//where all the methods returns all the JSON response  and handles http request get,put,.....
