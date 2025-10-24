@@ -7,7 +7,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 @Entity
 public class Ticket {
-@Id
+@Id//entity class maps ticket class to dataabase
 @GeneratedValue(strategy = GenerationType.IDENTITY)
 @Column(name = "ticket_id")
 private Long ticketId;
