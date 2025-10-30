@@ -7,5 +7,4 @@ import com.example.demo.entities.Ticket;
 @Repository
 public interface TicketRepository extends JpaRepository<Ticket, Integer> {
 
-void deleteById(Integer id);
 }
